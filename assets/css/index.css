@@ -1,10 +1,11 @@
 
 
 :root {
-    --primary-color:  ;
-    --secondary-color:  ;
+    --primary-color:  #1876f2;
+    --secondary-color:  #1c1e21;
     --ternery-color:  ;
-    --neutral-color-one:  ;
+    --neutral-color-one:  #65676B;
+    --backgroung-color: #18191a;
     --neutral-color-two:  ;
     --font-use:  ;
     --font-family-default: 10px;
@@ -33,4 +34,35 @@ body {
     width: 100vw;
     height: 100%;
 
+}
+
+.nav-bar {
+    width: 100%;
+    height: 7rem;
+    background: var(--backgroung-color);
+    display: flex;
+}
+
+.nav-bar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d9d9d9;
+    width: 20%;
+    height: 100%;
+}
+
+.nav-bar .logo a {
+    width: 5rem;
+    height: 5rem;
+}
+
+.nav-bar .logo a img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.nav-bar ul {
+    display: flex;
 }
